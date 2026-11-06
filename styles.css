@@ -32,7 +32,7 @@ em{font-family:inherit;font-style:italic;letter-spacing:-.02em}
 .profile-photo-frame{position:absolute;z-index:2;left:50%;top:7%;width:190px;height:190px;overflow:hidden;border:7px solid var(--paper);border-radius:50%;box-shadow:0 10px 24px rgba(23,34,30,.2);transform:translateX(-50%);background:var(--paper)}
 .hero-art .profile-photo{position:absolute;width:486px;max-width:none;height:auto;left:-148px;top:-304px}
 .hero-visual{grid-column:2;width:100%;padding-bottom:36px}
-.hero-caption{margin:clamp(84px,8vw,120px) 0 0;color:var(--ink);font-family:"Abril Fatface",Georgia,serif;font-size:24px;line-height:1.25;text-align:center}
+.hero-caption{margin:clamp(84px,8vw,120px) 0 0;color:var(--ink);font-family:"Abril Fatface",Georgia,serif;font-size:24px;font-style:italic;line-height:1.25;text-align:center}
 .contact-easter-egg{display:inline-block;margin-left:5px;color:rgba(204,232,120,.65);font-size:.75em;cursor:help;transition:color .2s,transform .2s}
 .contact-easter-egg:hover{color:var(--green);transform:rotate(25deg) scale(1.25)}
 .contact-easter-egg-wrap{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
