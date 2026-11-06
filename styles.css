@@ -19,3 +19,9 @@ body{font-size:24px}
 .profile-links{font-size:16px}
 .site-nav,.eyebrow,.date,.pub-type,.number,.subsection-title,.service-list span,.social-links,.site-footer{font-size:16px}
 @media(max-width:700px){.hero-intro{font-size:25px}.copy p,.timeline-item p,.publication p,.working-papers p,.conference-list p,.contact-intro,.contact-details p{font-size:21px}.current-role{font-size:18px}.section-aside{font-size:18px}.service-list p{font-size:20px}}
+
+:root{--sans:"Avenir Next","Segoe UI",Roboto,Arial,sans-serif;--serif:inherit}
+em{font-family:inherit;font-style:italic;letter-spacing:-.02em}
+.hero-art{width:min(100%,560px);aspect-ratio:2/1}
+.hero-art img{object-fit:contain}
+@media(max-width:700px){.hero-art{width:100%;aspect-ratio:2/1}}
