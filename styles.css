@@ -28,6 +28,7 @@ em{font-family:inherit;font-style:italic;letter-spacing:-.02em}
 .ticker-track{animation-duration:49s;font-size:16px}
 .ticker i{font-size:21px}
 .hero-art{width:min(140%,784px)}
-.hero-art .profile-photo{position:absolute;z-index:2;right:7%;top:7%;width:24%;height:48%;object-fit:cover;object-position:50% 58%;border:6px solid var(--paper);border-radius:50%;box-shadow:0 10px 24px rgba(23,34,30,.2)}
-.contact-aside{color:var(--green);font-size:18px!important;font-style:italic}
-@media(max-width:700px){.hero-art{width:100%}.hero-art .profile-photo{width:28%;height:48%;border-width:4px}}
+.hero-art .profile-photo{position:absolute;z-index:2;left:50%;top:7%;width:190px;height:190px;object-fit:cover;object-position:50% 42%;border:7px solid var(--paper);border-radius:50%;box-shadow:0 10px 24px rgba(23,34,30,.2);transform:translateX(-50%)}
+.contact-easter-egg{display:inline-block;margin-left:5px;color:rgba(204,232,120,.65);font-size:.75em;cursor:help;transition:color .2s,transform .2s}
+.contact-easter-egg:hover{color:var(--green);transform:rotate(25deg) scale(1.25)}
+@media(max-width:700px){.hero-art{width:100%}.hero-art .profile-photo{width:130px;height:130px;border-width:5px}}
