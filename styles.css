@@ -27,3 +27,7 @@ em{font-family:inherit;font-style:italic;letter-spacing:-.02em}
 @media(max-width:700px){.hero-art{width:100%;aspect-ratio:2/1}}
 .ticker-track{animation-duration:49s;font-size:16px}
 .ticker i{font-size:21px}
+.hero-art{width:min(140%,784px)}
+.hero-art .profile-photo{position:absolute;z-index:2;right:7%;top:7%;width:24%;height:48%;object-fit:cover;object-position:50% 58%;border:6px solid var(--paper);border-radius:50%;box-shadow:0 10px 24px rgba(23,34,30,.2)}
+.contact-aside{color:var(--green);font-size:18px!important;font-style:italic}
+@media(max-width:700px){.hero-art{width:100%}.hero-art .profile-photo{width:28%;height:48%;border-width:4px}}
